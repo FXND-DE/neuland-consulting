@@ -7,7 +7,7 @@ const aboutContent: Record<'de' | 'en', { text1: ReactNode; text2: ReactNode; te
     text1: (
       <>
         <p>
-          <strong>Neuland</strong> — the German word for “new territory” — is quite fitting for my work and my real surname.
+          <strong>Neuland</strong> -- the German word for (&quot;new territory&quot;) -- is quite fitting for my work and my real surname.
         </p>
         <p>
           For 30 years, I've mapped out what's coming next in digital tech, always driven by passion. 
