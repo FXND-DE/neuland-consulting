@@ -15,57 +15,55 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
       <Header lang={lang} />
 
       {/* Logo + Header Section */}
-      <section
-        className="w-full flex flex-col items-center justify-center text-center px-6 py-32 bg-cover bg-center text-white"
-        style={{ backgroundImage: "url('/NC_Back.png')" }}
-      >
-        <div className="w-[500px]">
-          <Image
-            src="/logo.png"
-            alt="neuland.consulting Logo"
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-full h-auto mb-6"
-            priority
-          />
-        </div>
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-          {t.title}
-        </h1>
-      </section>
-
-{/* Hero Section */}
-<section className="flex flex-col items-center justify-center text-center px-6 py-32 bg-gradient-to-b from-white via-[#f5f7f0] to-[#ebfdf5]">
-  <h1 className="text-3xl md:text-5xl font-bold leading-snug mb-4 max-w-3xl mx-auto">
-    {t.subtitle}
-  </h1>
-  <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
-    {lang === 'de'
-      ? 'Individuelle Beratung für digitale Transformation mit Wirkung.'
-      : 'Individual consulting for digital transformation that makes a difference.'}
-  </p>
-  <a
-    href="#kontakt"
-    className="inline-flex items-center gap-2 px-6 py-3 bg-[#fadf16] text-black font-semibold rounded-2xl shadow hover:scale-105 transition-transform"
-  >
-    {t.cta}
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-4 h-4"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M17 8l4 4m0 0l-4 4m4-4H3"
-      />
-    </svg>
-  </a>
+<section
+  className="w-full flex flex-col items-center justify-center text-center px-6 py-32 bg-cover bg-center text-white"
+  style={{ backgroundImage: "url('/NC_Back.png')" }}
+>
+  <div className="w-full max-w-[500px]">
+    <Image
+      src="/logo.png"
+      alt="neuland.consulting Logo"
+      width={0}
+      height={0}
+      sizes="100vw"
+      className="w-full h-auto mb-6"
+      priority
+    />
+  </div>
+  <h1 className="header-title mb-6">{t.title}</h1>
 </section>
+
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center text-center px-6 py-32 bg-gradient-to-b from-white via-[#f5f7f0] to-[#ebfdf5]">
+        <h1 className="text-3xl md:text-5xl font-bold leading-snug mb-4 max-w-3xl mx-auto">
+          {t.subtitle}
+        </h1>
+        <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
+          {lang === 'de'
+            ? 'Individuelle Beratung für digitale Transformation mit Wirkung.'
+            : 'Individual consulting for digital transformation that makes a difference.'}
+        </p>
+        <a
+          href="#kontakt"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-[#fadf16] text-black font-semibold rounded-2xl shadow hover:scale-105 transition-transform"
+        >
+          {t.cta}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </a>
+      </section>
 
       {/* Leistungen / Offerings */}
       <section className="px-6 py-24 bg-white">
@@ -106,8 +104,10 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
           </div>
         </div>
       </section>
-      {/* About */}  
-        <About />
+
+      {/* About */}
+      <About />
+
       {/* Kontakt / Contact */}
       <section id="kontakt" className="px-6 py-24 bg-[#34CAE1]/10">
         <div className="max-w-xl mx-auto text-center">
@@ -121,6 +121,7 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
           </a>
         </div>
       </section>
+
       {/* Footer */}
       <Footer />
     </main>

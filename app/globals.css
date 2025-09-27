@@ -45,6 +45,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+/* ✨ Global animation */
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -56,4 +58,9 @@ body {
 
 .animate-fade-in {
   animation: fade-in 0.25s ease-out;
+}
+
+/* ✅ Responsive header title */
+.header-title {
+  @apply text-4xl sm:text-5xl md:text-6xl font-bold leading-tight tracking-tight text-center;
 }
