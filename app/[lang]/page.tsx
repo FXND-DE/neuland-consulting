@@ -19,7 +19,7 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
   className="w-full flex flex-col items-center justify-center text-center px-6 py-32 bg-cover bg-center text-white"
   style={{ backgroundImage: "url('/NC_Back.png')" }}
 >
-  <div className="w-full max-w-[500px]">
+  <div className="w-60 sm:w-80 md:w-[500px] lg:w-[600px] xl:w-[700px]">
     <Image
       src="/logo.png"
       alt="neuland.consulting Logo"
