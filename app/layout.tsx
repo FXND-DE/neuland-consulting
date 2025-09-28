@@ -8,7 +8,6 @@ export const metadata = {
   metadataBase: new URL('https://neuland.consulting'),
   viewport: 'width=device-width, initial-scale=1', 
 }
-}
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
