@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @font-face {
   font-family: 'Quicksand';
   src: url('/fonts/quicksand/quicksand-v37-latin-300.woff2') format('woff2');
@@ -48,6 +49,11 @@
   --font-sans: 'Quicksand', sans-serif;
 }
 
+/* iPhone Schriftgröße auf Netify bedingt */
+html {
+  font-size: 112.5%; /* Erhöht 1rem von 16px → 18px */
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -61,7 +67,7 @@
   --color-nh-red: var(--nh-red);
 
   --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono); /* falls Du das brauchst */
+  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
