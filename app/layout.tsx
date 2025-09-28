@@ -3,6 +3,9 @@ import { ReactNode } from 'react'
 
 export const metadata = {
   title: 'neuland.consulting',
+  icons: {
+    icon: "/favicon.ico"
+    },
   description: 'Beratung für digitales Neuland',
   metadataBase: new URL('https://neuland.consulting'),
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no', // optional restriktiv
