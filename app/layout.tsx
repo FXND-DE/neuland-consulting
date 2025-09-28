@@ -1,6 +1,6 @@
 import './globals.css'
 import { ReactNode } from 'react'
-import { quicksand } from './fonts' // ✅ Nur importieren – NICHT erneut definieren
+import { quicksand } from '../fonts' // ✅ Nur importieren – NICHT erneut definieren
 
 export const metadata = {
   title: 'neuland.consulting',
