@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/quicksand/Quicksand-Light.woff2') format('woff2');
+  src: url('/fonts/quicksand/quicksand-v37-latin-300.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/quicksand/Quicksand-Regular.woff2') format('woff2');
+  src: url('/fonts/quicksand/quicksand-v37-latin-regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/quicksand/Quicksand-Medium.woff2') format('woff2');
+  src: url('/fonts/quicksand/quicksand-v37-latin-500.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: 'Quicksand';
-  src: url('/fonts/quicksand/Quicksand-Bold.woff2') format('woff2');
+  src: url('/fonts/quicksand/quicksand-v37-latin-700.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
