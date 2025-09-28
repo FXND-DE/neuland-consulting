@@ -90,7 +90,7 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
         </div>
       </section>
 
-      {/* Arbeitsweise / Approach */}
+      {/* Arbeitsweise 
       <section className="px-6 py-24 bg-[#00cb64]/10">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">{t.approach}</h2>
@@ -103,7 +103,7 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
             ))}
           </div>
         </div>
-      </section>
+      </section> / Approach */}
 
       {/* About */}
       <About />

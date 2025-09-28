@@ -1,4 +1,3 @@
-import { TestTube2 } from "lucide-react";
 
 export const translations = {
   de: {

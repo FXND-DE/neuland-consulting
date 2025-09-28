@@ -10,26 +10,22 @@ export default function About() {
 
   return (
     <section className="bg-white px-6 py-24 border-t border-gray-200">
-      <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_1.5fr] gap-12 items-center">
+      <div className="max-w-3xl mx-auto flex flex-col items-center text-left space-y-6">
         {/* Bild */}
-        <div className="flex justify-center">
-          <Image
-            src="/felix-profile.png"
-            alt="Felix Neuland"
-            width={300}
-            height={300}
-            className="rounded-full shadow-lg w-60 h-60 object-cover"
-          />
-        </div>
+        <Image
+          src="/felix-profile.png"
+          alt="Felix Neuland"
+          width={240}
+          height={240}
+          className="rounded-full shadow-lg w-60 h-60 object-cover"
+        />
 
         {/* Text */}
-        <div className="text-gray-800 text-lg leading-relaxed space-y-4 text-left md:text-justify">
-          <h2 className="text-3xl font-bold mb-4">Felix Neuland</h2>
-        {content.text1}
-        {content.text2}
-        {content.text3}
-
-
+        <div className="text-gray-800 text-lg leading-relaxed space-y-4">
+          <h2 className="text-3xl font-bold text-center">Felix Neuland</h2>
+          {content.text1}
+          {content.text2}
+          {content.text3}
         </div>
       </div>
     </section>

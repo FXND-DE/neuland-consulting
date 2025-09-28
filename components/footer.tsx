@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { Linkedin } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'

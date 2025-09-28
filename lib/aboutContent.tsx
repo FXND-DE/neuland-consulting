@@ -10,7 +10,7 @@ const aboutContent: Record<'de' | 'en', { text1: ReactNode; text2: ReactNode; te
           <strong>Neuland</strong> -- the German word for (&quot;new territory&quot;) -- is quite fitting for my work and my real surname.
         </p>
         <p>
-          For 30 years, I&apos;ve mapped out what&apos;s coming next in digital tech, always driven by passion. 
+          I was always interested in &apos;mappeing out what&apos;s coming next in digital tech, always driven by passion. 
           I love to see it flying and to turn it into something that helps organizations with their goals 
           and adds value to the organization and society.
         </p>
@@ -56,7 +56,7 @@ const aboutContent: Record<'de' | 'en', { text1: ReactNode; text2: ReactNode; te
           Mein Nachname <strong>Neuland</strong> beschreibt sehr gut was ich all die Jahre mache.
         </p>
         <p>
-          Seit 30 Jahren erkunde ich, was in der digitalen Technologie als Nächstes kommt -- immer getrieben von Leidenschaft. 
+          Ich hatte immer großes interresse daran, welche digitalen Technologie als Nächstes kommt -- immer getrieben von Leidenschaft. 
           Ich liebe es, Innovationen zum Fliegen zu bringen und daraus Lösungen zu entwickeln, die Organisationen bei ihren Zielen unterstützen 
           und sowohl dem Unternehmen als auch der Gesellschaft Mehrwert bieten.
         </p>
