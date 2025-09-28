@@ -26,8 +26,8 @@ const config: Config = {
         'nh-rosa': '#f0aabc',
         'nh-red': '#ea5a3c',
       },
-      fontFamily: {
-        sans: ['var(--font-quicksand)', 'sans-serif'],
+     fontFamily: {
+      sans: ['Quicksand', 'sans-serif'],
       },
 
     },

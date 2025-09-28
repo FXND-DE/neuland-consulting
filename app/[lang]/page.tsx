@@ -26,6 +26,7 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
       width={0}
       height={0}
       sizes="100vw"
+      priority={true}
       className="w-full h-auto mb-6"
       priority
     />
