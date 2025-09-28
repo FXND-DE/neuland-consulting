@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 export const metadata = {
   title: 'neuland.consulting',
   icons: {
-    icon: "/favicon.ico"
+    icon: "/favicon.png"
     },
   description: 'Beratung für digitales Neuland',
   metadataBase: new URL('https://neuland.consulting'),
