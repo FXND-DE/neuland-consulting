@@ -11,7 +11,11 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="de" className={quicksand.variable} suppressHydrationWarning>
+    <html lang="de">
+      <head>
+        {/* 👇 Das ist das Entscheidende */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className="font-sans">{children}</body>
     </html>
   )
