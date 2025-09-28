@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
-import About from '@/components/about' 
+import About from '@/components/about'
 import { translations } from '@/lib/translations'
 import { CheckCircle, Lightbulb } from 'lucide-react'
 
@@ -15,24 +15,21 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
       <Header lang={lang} />
 
       {/* Logo + Header Section */}
-<section
-  className="w-full flex flex-col items-center justify-center text-center px-6 py-32 bg-cover bg-center text-white"
-  style={{ backgroundImage: "url('/NC_Back.png')" }}
->
-  <div className="w-60 sm:w-80 md:w-[500px] lg:w-[600px] xl:w-[700px]">
-    <Image
-      src="/logo.png"
-      alt="neuland.consulting Logo"
-      width={0}
-      height={0}
-      sizes="100vw"
-      priority={true}
-      className="w-full h-auto mb-6"
-      priority
-    />
-  </div>
-  <h1 className="header-title mb-6">{t.title}</h1>
-</section>
+      <section
+        className="w-full flex flex-col items-center justify-center text-center px-6 py-32 bg-cover bg-center text-white"
+        style={{ backgroundImage: "url('/NC_Back.png')" }}
+      >
+        <div className="relative w-60 sm:w-80 md:w-[500px] lg:w-[600px] xl:w-[700px] aspect-[3/1] mb-6">
+          <Image
+            src="/logo.png"
+            alt="neuland.consulting Logo"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
+        <h1 className="header-title mb-6">{t.title}</h1>
+      </section>
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center px-6 py-32 bg-gradient-to-b from-white via-[#f5f7f0] to-[#ebfdf5]">
@@ -90,21 +87,6 @@ export default function Home({ params }: { params?: { lang?: 'en' | 'de' } }) {
           <blockquote className="italic text-gray-600">{t.quote}</blockquote>
         </div>
       </section>
-
-      {/* Arbeitsweise 
-      <section className="px-6 py-24 bg-[#00cb64]/10">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">{t.approach}</h2>
-          <div className="grid gap-6 md:grid-cols-3 text-center">
-            {t.steps.map((step: string, i: number) => (
-              <div key={step} className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="font-bold text-xl mb-2 text-[#00cb64]">{step}</h3>
-                <p className="text-gray-700 leading-relaxed">{t.stepTexts[i]}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> / Approach */}
 
       {/* About */}
       <About />
