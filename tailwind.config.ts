@@ -1,11 +1,19 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './app/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './lib/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: {
+    files: [
+      './app/**/*.{js,ts,jsx,tsx}',
+      './components/**/*.{js,ts,jsx,tsx}',
+      './lib/**/*.{js,ts,jsx,tsx}',
+    ],
+    safelist: [
+      'text-brand',
+      'bg-brand',
+      'from-[#00FF99]',
+      'to-[#00CB64]',
+    ],
+  },
 
   theme: {
     fontSize: {
@@ -26,12 +34,12 @@ const config: Config = {
         'nh-green': '#00a090',
         'nh-rosa': '#f0aabc',
         'nh-red': '#ea5a3c',
-        'brand': '#0099ff',
+        brand: '#0099ff',
         'brand-dark': '#007acc',
         'brand-light': '#33b5ff',
         'green-primary': '#00FD70',
         'green-light': '#66FFAA',
-    'green-dark': '#00884B',
+        'green-dark': '#00884B',
       },
       fontFamily: {
         sans: ['Quicksand', 'sans-serif'],
@@ -39,12 +47,6 @@ const config: Config = {
     },
   },
   plugins: [],
-  safelist: [
-    'text-brand',
-    'bg-brand',
-    'from-[#00FF99]',
-    'to-[#00CB64]',
-  ],
 }
 
 export default config
