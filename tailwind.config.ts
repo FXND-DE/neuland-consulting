@@ -6,9 +6,7 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx}',
     './lib/**/*.{js,ts,jsx,tsx}',
   ],
-  safelist: [
-    'text-brand','bg-brand'
-  ],
+
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -47,6 +45,7 @@ const config: Config = {
     },
   },
   plugins: [],
+  safelist: ['text-brand', 'bg-brand'],
 }
 
 export default config
