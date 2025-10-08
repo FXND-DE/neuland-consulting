@@ -6,12 +6,7 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx}',
     './lib/**/*.{js,ts,jsx,tsx}',
   ],
-  safelist: [
-    'text-brand',
-    'bg-brand',
-    'from-[#00FF99]',
-    'to-[#00CB64]',
-  ],
+  
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
