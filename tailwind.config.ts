@@ -1,19 +1,17 @@
-import { defineConfig } from 'tailwindcss'
+import type { Config } from 'tailwindcss'
 
-export default defineConfig({
+const config: Config = {
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './lib/**/*.{js,ts,jsx,tsx}',
   ],
-
   safelist: [
     'text-brand',
     'bg-brand',
     'from-[#00FF99]',
     'to-[#00CB64]',
   ],
-
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -45,6 +43,7 @@ export default defineConfig({
       },
     },
   },
-
   plugins: [],
-})
+}
+
+export default config
