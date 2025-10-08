@@ -37,15 +37,14 @@ const config: Config = {
         sans: ['Quicksand', 'sans-serif'],
       },
     },
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-    },
   },
   plugins: [],
-  safelist: ['text-brand', 'bg-brand'],
+  safelist: [
+    'text-brand',
+    'bg-brand',
+    'from-[#00FF99]',
+    'to-[#00CB64]',
+  ],
 }
 
 export default config
