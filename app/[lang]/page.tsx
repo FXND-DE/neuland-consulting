@@ -20,7 +20,7 @@ export default function Home({ params }: { params: Promise<{ lang?: string }> })
 
   return (
     <main className="min-h-screen bg-white text-gray-900 font-sans">
-      <Header lang={lang} />
+      <Header lang={currentLang} />
 
       {/* Logo + Header Section */}
       <section
