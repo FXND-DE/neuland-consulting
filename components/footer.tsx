@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#34CAE1] text-white text-sm px-6 py-12 mt-12">
+      <footer className="bg-gradient-to-br from-[#0099ff] to-[#00FD70] text-white py-12 px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
             <p className="font-bold text-white mb-1">neuland.consulting</p>

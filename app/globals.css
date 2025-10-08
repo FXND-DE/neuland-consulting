@@ -40,7 +40,7 @@
   --nh-beige: #f5f7f0;
   --nh-yellow: #fadf16;
   --nh-lightgreen: #00cb64;
-  --nh-blue: #34CAE1;
+  --nh-blue: #0099ff;
   --nh-green: #00a090;
   --nh-rosa: #f0aabc;
   --nh-red: #ea5a3c;
@@ -96,6 +96,12 @@ body {
 .animate-fade-in {
   animation: fade-in 0.25s ease-out;
 }
+
+.highlight {
+  font-weight: 700;
+  color: #0099ff; /* <- direkt aus tailwind.config.ts übernommen */
+}
+
 
 /* ✅ Responsive header title */
 .header-title {
