@@ -8,7 +8,7 @@ export const translations = {
     cta: 'Lass uns sprechen',
     offer: 'Was ich anbiete',
     offers: [
-      ['<hl><Transformationsberatung </hl>für Deep-Tech- und Unternehmensumgebungen', ''],
+      ['<hl>Transformationsberatung </hl>für Deep-Tech- und Unternehmensumgebungen', ''],
       ['<hl>Integration von Enterprise-AI-Lösungen</hl>in Governance- und Compliance-Strukturen', ''],
       ['<hl>AI-gestützte Prozess- und Workflow-Entwicklung</hl>für Marketing und Produktinnovation', ''],
       ['<hl>Markenpositionierung</hl> und Narrative für innovationsgetriebene Unternehmen', ''],
