@@ -1,6 +1,3 @@
-// lib/translations.tsx
-'use client'
-
 export const translations = {
   de: {
     title: 'Digitales Neuland nachhaltig erschließen',

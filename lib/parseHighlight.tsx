@@ -1,6 +1,3 @@
-// lib/parseHighlight.tsx
-'use client'
-
 import React from 'react'
 import Highlight from '@/components/Highlight'
 

@@ -28,9 +28,13 @@ export default function About() {
         <div className="text-left space-y-6">
           {/* Text 1 */}
           <div className="space-y-4">
-            {t.about.text1.split('\n').map((line, i) => (
-              <p key={`t1-${i}`}>{parseHighlight(line.trim())}</p>
-            ))}
+            {t.about.text1
+              .split('\n')
+              .map((line) => line.trim())
+              .filter((line) => line.length > 0)
+              .map((line, i) => (
+                <p key={`t1-${i}`}>{parseHighlight(line)}</p>
+              ))}
           </div>
 
           {/* Text 2 — Milestones */}
@@ -44,8 +48,10 @@ export default function About() {
                   {t.about.text2
                     .replace(/<b>.*?<\/b>/, '')
                     .split('•')
-                    .map((item, i) => item.trim() && (
-                      <li key={`t2-${i}`}>{parseHighlight(item.trim())}</li>
+                    .map((item) => item.trim())
+                    .filter((item) => item.length > 0)
+                    .map((item, i) => (
+                      <li key={`t2-${i}`}>{parseHighlight(item)}</li>
                     ))}
                 </ul>
               </>
@@ -56,9 +62,13 @@ export default function About() {
 
           {/* Text 3 */}
           <div className="space-y-4">
-            {t.about.text3.split('\n').map((line, i) => (
-              <p key={`t3-${i}`}>{parseHighlight(line.trim())}</p>
-            ))}
+            {t.about.text3
+              .split('\n')
+              .map((line) => line.trim())
+              .filter((line) => line.length > 0)
+              .map((line, i) => (
+                <p key={`t3-${i}`}>{parseHighlight(line)}</p>
+              ))}
           </div>
         </div>
       )}
