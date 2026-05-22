@@ -16,15 +16,15 @@ const stripMarkup = (value: string) =>
   value
     .replace(/<[^>]+>/g, ' ')
     .replace(/\s+/g, ' ')
+    .replace(/\s+([.,;:!?])/g, '$1')
     .trim()
 
 const buildStructuredData = (lang: Locale, t: Translation) => {
-  const offerItems = t.offers.map(([highlight, rest], index) => {
+  const offerItems = t.offers.map(([highlight, rest]) => {
     const name = stripMarkup(`${highlight} ${rest}`)
 
     return {
       '@type': 'Offer',
-      position: index + 1,
       itemOffered: {
         '@type': 'Service',
         name,
@@ -34,7 +34,6 @@ const buildStructuredData = (lang: Locale, t: Translation) => {
           name: 'neuland.consulting',
         },
         areaServed: lang === 'de' ? ['Deutschland', 'Europa'] : ['Worldwide', 'Europe'],
-        availableLanguage: ['de', 'en'],
       },
     }
   })
@@ -49,11 +48,10 @@ const buildStructuredData = (lang: Locale, t: Translation) => {
     alternateName: stripMarkup(t.title),
     description,
     url: `${baseUrl}/${lang}`,
-    inLanguage: lang,
     logo: `${baseUrl}/logo.png`,
     image: `${baseUrl}/NC_Back.png`,
     areaServed: lang === 'de' ? ['Deutschland', 'Europa'] : ['Worldwide', 'Europe'],
-    availableLanguage: ['de', 'en'],
+    knowsLanguage: ['de', 'en'],
     founder: {
       '@type': 'Person',
       name: 'Felix Neuland',
