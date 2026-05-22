@@ -65,8 +65,8 @@ const buildStructuredData = (lang: Locale, t: Translation) => {
     },
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Beethovenstr. 25',
-      postalCode: '60325',
+      streetAddress: 'Mainkai 35',
+      postalCode: '60311',
       addressLocality: 'Frankfurt am Main',
       addressCountry: 'DE',
     },
