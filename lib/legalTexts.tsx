@@ -6,8 +6,8 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
       <>
         <p>Felix Neuland<br />
         neuland.consulting<br />
-        Beethovenstraße 25<br />
-        60325 Frankfurt am Main</p>
+        Mainkai 35<br />
+        60311 Frankfurt am Main</p>
 
         <p>
           <strong>Kontakt:</strong><br />
@@ -15,7 +15,7 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
         </p>
 
         <p className="text-sm text-gray-600 italic">
-          Verantwortlich im Sinne des § 55 Abs. 2 RStV: Felix Neuland
+          Verantwortlich im Sinne des § 18 Abs. 2 MStV: Felix Neuland
         </p>
       </>
     ),
@@ -48,8 +48,8 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
       <>
         <p>Felix Neuland<br />
         neuland.consulting<br />
-        Beethovenstraße 25<br />
-        60325 Frankfurt am Main<br />
+        Mainkai 35<br />
+        60311 Frankfurt am Main<br />
         Germany</p>
 
         <p>
@@ -58,7 +58,7 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
         </p>
 
         <p className="text-sm text-gray-600 italic">
-          Responsible for content according to § 55 paragraph 2 RStV: Felix Neuland
+          Responsible for content according to § 18 paragraph 2 MStV: Felix Neuland
         </p>
       </>
     ),
