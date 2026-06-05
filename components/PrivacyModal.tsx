@@ -30,8 +30,8 @@ export default function PrivacyModal({ lang, onClose }: { lang: 'de' | 'en'; onC
               <p>
                 Verantwortlich im Sinne der DSGVO ist:<br />
                 Felix Neuland<br />
-                Beethovenstraße 25<br />
-                60325 Frankfurt am Main<br />
+                Mainkai 35<br />
+                60311 Frankfurt am Main<br />
                 <a href="mailto:felix@neuland.consulting" className="underline text-blue-600">
                   felix@neuland.consulting
                 </a>
@@ -51,8 +51,8 @@ export default function PrivacyModal({ lang, onClose }: { lang: 'de' | 'en'; onC
               <p>
                 Responsible according to GDPR:<br />
                 Felix Neuland<br />
-                Beethovenstraße 25<br />
-                60325 Frankfurt am Main<br />
+                Mainkai 35<br />
+                60311 Frankfurt am Main<br />
                 <a href="mailto:felix@neuland.consulting" className="underline text-blue-600">
                   felix@neuland.consulting
                 </a>

@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div>
             <p className="font-bold text-white mb-1">neuland.consulting</p>
-            <p>Beethovenstraße 25<br />60325 Frankfurt am Main</p>
+            <p>Mainkai 35<br />60311 Frankfurt am Main</p>
             <p className="mt-1">
               <a
                 href="mailto:felix@neuland.consulting"

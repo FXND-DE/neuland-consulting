@@ -27,7 +27,7 @@ export const translations = {
     contactButton: 'Kontakt aufnehmen',
     portrait: {
       left: 'Es gibt seit jeher einen großen <hl>Hype</hl>, wenn <hl>neue Technologien</hl> auf den Markt kommen.',
-      right: 'Die entscheidende Frage ist: Wann und wie kann man sie zu seinem <hl>Vorteil</hl> nutzen?',
+      right: 'Wann kann man sie wie nachhaltig zu seinem <hl>Vorteil</hl> nutzen?',
       bottom: 'Genau da <hl>helfe</hl> ich gerne!',
     },
 
@@ -42,7 +42,7 @@ export const translations = {
       `,
       text2: `
         <b>Meilensteine</b>
-        • <hl>Web 1.0:</hl> Erste Unternehmenswebsites und Extranets für Deutsche Bank, Mercedes-Benz, Lufthansa, Hugo Boss und Escada mit <strong>PixelFactory</strong>.
+        • <hl>Web 1.0:</hl> Erste Unternehmenswebsites und Extranets für Deutsche Bank, Mercedes-Benz, Lufthansa, Hugo Boss und Escada mit <hl>PixelFactory</hl>.
         • <hl>Web 2.0 / Social:</hl> Globale Content- und Community-Programme für Mercedes-Benz, adidas, BASF, Lufthansa — Jahre bevor man es „Social Media“ nannte, mit Neuland+Herzer.
         • <hl>Web 4.0:</hl> KI-gestützte 3D-Zusammenarbeit bei ROOM3D und Deep-Tech mit der TMRW Foundation.
       `,
@@ -54,7 +54,7 @@ export const translations = {
         die in den nächsten zehn Jahren den <hl>Wettbewerbsvorteil</hl> definieren wird.
         Deshalb liegt mir so viel daran, Organisationen in dieser digitalen Revolution zu stärken!
       `,
-      addressLine1: 'Beethovenstr. 25 · 60325 Frankfurt am Main',
+      addressLine1: 'Mainkai 35 · 60311 Frankfurt am Main',
       email: 'felix@neuland.consulting',
       expandButton: 'Mehr über Felix Neuland',
       collapseButton: 'Weniger über Felix Neuland',
@@ -114,7 +114,7 @@ export const translations = {
         <hl>AI (Augmented Intelligence)</hl> — a vision that has fascinated me since my teenage years and continues to fuel my passion for digital transformation.
         That’s why I’m committed to helping organizations <hl>thrive</hl> in this new digital revolution.
       `,
-      addressLine1: 'Beethovenstr. 25 · 60325 Frankfurt am Main',
+      addressLine1: 'Mainkai 35 · 60311 Frankfurt am Main',
       email: 'felix@neuland.consulting',
       expandButton: 'More about Felix Neuland',
       collapseButton: 'Less about Felix Neuland',

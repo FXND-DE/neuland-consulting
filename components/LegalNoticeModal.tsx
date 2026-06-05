@@ -14,8 +14,8 @@ export default function LegalNoticeModal({ onClose }: { onClose: () => void }) {
         <p>
           Felix Neuland<br />
           neuland.consulting<br />
-          Beethovenstraße 25<br />
-          60325 Frankfurt am Main
+          Mainkai 35<br />
+          60311 Frankfurt am Main
         </p>
         <p className="mt-4">
           <strong>Kontakt:</strong><br />
