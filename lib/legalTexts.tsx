@@ -14,6 +14,11 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
           <a href="mailto:felix@neuland.consulting">felix@neuland.consulting</a>
         </p>
 
+        <p>
+          <strong>Umsatzsteuer-ID:</strong><br />
+          Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE457618529
+        </p>
+
         <p className="text-sm text-gray-600 italic">
           Verantwortlich im Sinne des § 18 Abs. 2 MStV: Felix Neuland
         </p>
@@ -55,6 +60,11 @@ export const legalTexts: Record<'de' | 'en', { impressum: ReactNode; datenschutz
         <p>
           <strong>Contact:</strong><br />
           <a href="mailto:felix@neuland.consulting">felix@neuland.consulting</a>
+        </p>
+
+        <p>
+          <strong>VAT ID:</strong><br />
+          VAT identification number according to § 27a UStG: DE457618529
         </p>
 
         <p className="text-sm text-gray-600 italic">
